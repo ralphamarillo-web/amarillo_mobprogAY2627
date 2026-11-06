@@ -1,5 +1,5 @@
 ###  Amarillo, Ralph Stephen E.
 ### 2024 - 1005227
-###q INF241 
+### INF241 
 
-Laboratory 0: Disccussion 
+Laboratory 0: Lorem Ipsum
