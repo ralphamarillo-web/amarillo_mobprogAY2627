@@ -9,7 +9,7 @@ class NewsFeedScreen extends StatelessWidget {
     return ListView(
       children: const [
         NewsFeedCard(
-          userName: 'Ralph Amarillo',
+          userName: 'Stephen Amarillo',
           postContent: 'Wazzup!',
           numOfLikes: 100,
           date: 'October 11',
