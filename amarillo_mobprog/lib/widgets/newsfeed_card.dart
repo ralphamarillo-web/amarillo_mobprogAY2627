@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../constants.dart';
 import 'custom_text.dart';
 
 class NewsFeedCard extends StatelessWidget {
@@ -91,35 +90,41 @@ class NewsFeedCard extends StatelessWidget {
                   )
                 : SizedBox(height: ScreenUtil().setHeight(1)),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 TextButton.icon(
                   onPressed: () {
                     print('Liked');
                   },
-                  icon: const Icon(Icons.thumb_up, color: FB_DARK_PRIMARY),
+                  icon: Icon(
+                    Icons.thumb_up_outlined,
+                    color: Colors.grey.shade700,
+                  ),
                   label: CustomText(
-                    text: numOfLikes.toString(),
+                    text: 'Like',
                     fontSize: ScreenUtil().setSp(12),
-                    color: FB_DARK_PRIMARY,
+                    color: Colors.grey.shade700,
                   ),
                 ),
                 TextButton.icon(
                   onPressed: () {},
-                  icon: const Icon(Icons.comment, color: FB_DARK_PRIMARY),
+                  icon: Icon(
+                    Icons.chat_bubble_outline,
+                    color: Colors.grey.shade700,
+                  ),
                   label: CustomText(
                     text: 'Comment',
                     fontSize: ScreenUtil().setSp(12),
-                    color: FB_DARK_PRIMARY,
+                    color: Colors.grey.shade700,
                   ),
                 ),
                 TextButton.icon(
                   onPressed: () {},
-                  icon: const Icon(Icons.redo, color: FB_DARK_PRIMARY),
+                  icon: Icon(Icons.redo, color: Colors.grey.shade700),
                   label: CustomText(
                     text: 'Share',
                     fontSize: ScreenUtil().setSp(12),
-                    color: FB_DARK_PRIMARY,
+                    color: Colors.grey.shade700,
                   ),
                 ),
               ],
