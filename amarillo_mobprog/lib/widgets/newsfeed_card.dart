@@ -101,7 +101,7 @@ class NewsFeedCard extends StatelessWidget {
                     color: Colors.grey.shade700,
                   ),
                   label: CustomText(
-                    text: 'Like',
+                    text: '$numOfLikes',
                     fontSize: ScreenUtil().setSp(12),
                     color: Colors.grey.shade700,
                   ),
