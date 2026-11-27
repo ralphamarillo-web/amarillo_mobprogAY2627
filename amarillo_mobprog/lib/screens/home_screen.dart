@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
   final PageController _pageController = PageController();
 
-  final List<String> _titles = [APP_NAME, 'Notifications', 'Profile'];
+  final List<String> _titles = ['Rapid-o', 'Notifications', 'Profile'];
 
   @override
   Widget build(BuildContext context) {

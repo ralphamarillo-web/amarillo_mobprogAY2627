@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-const String APP_NAME = 'Rapid-o';
-
 const Color FB_PRIMARY = Color(0xFFB4182D);
 const Color FB_SECONDARY = Color(0xFF54162B);
 const Color FB_DARK_PRIMARY = Color(0xFF181A2F);
